@@ -1,0 +1,262 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Streamlit
+.streamlit/
+streamlit_cache/
+.streamlit/secrets.toml
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Assessment data files (user-generated)
+data/assessments/
+data/exports/
+data/user_uploads/
+output/
+exports/
+assessments/
+
+# Log files
+*.log
+logs/
+app.log
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Generated reports and plots
+reports/
+plots/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+!assets/images/*.png
+!docs/images/*.png
+
+# Configuration files with sensitive data
+config/secrets.py
+config/local_settings.py
+.env.local
+.env.production
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup files
+*.bak
+*.backup
+
+# Documentation build
+docs/_build/
+docs/build/
+
+# Node.js (if using any frontend tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Docker
+.dockerignore
+
+# Research data (sensitive)
+data/real_studies/
+data/confidential/
+data/patient_data/
+
+# Large datasets
+*.csv
+*.xlsx
+*.json
+!data/templates/*.csv
+!data/examples/*.json
+!data/templates/*.json
+
+# Statistical analysis outputs
+analysis_output/
+statistical_results/
+meta_analysis_results/
+
+# Presentation files
+presentations/
+*.pptx
+*.ppt
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Package files
+*.deb
+*.rpm
+*.msi
+*.exe
+*.dmg
+
+# Memory dumps
+*.stackdump
+
+# PyCharm
+.idea/
+
+# VSCode settings
+.vscode/settings.json
+.vscode/launch.json
+.vscode/extensions.json
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# vim
+*.swp
+*.swo
+
+# Emacs
+*~
+\#*\#
+
+# Test artifacts
+test_results/
+test_output/
+.coverage.*
+htmlcov/
+
+# Benchmark results
+benchmark_results/
+performance_logs/
+
+# Cache directories
+.cache/
+*.cache
+
+# Streamlit specific
+.streamlit/config.toml
+
+# Research-specific ignores
+systematic_review_data/
+meta_analysis_workspace/
+extracted_data/
+screening_results/
